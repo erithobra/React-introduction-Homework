@@ -1,8 +1,6 @@
 # React Props Lab: Make A Blog Post
 
-## Challenge Time!
-
-Let's have some practice creating a React component from scratch. How about a blog post?
+Let's put in some practice creating a React component from scratch. How about a blog post?
 
 1.  Create a new react project using the `create-react-app` command line program.
 
