@@ -1,30 +1,27 @@
-# React Props Lab: Make A Blog Post
+# React Props Lab: Make A Book listing
 
-Let's put in some practice creating a React component from scratch. How about a blog post?
+Let's put in some practice creating a React component from scratch.
 
 1.  Create a new react project in this repository.
 
-1.  In the `src` folder, create a new `Post.js` file that exports a React component that renders some dummy text.
+1.  Create a `src/Book/index.js` file that exports a basic React component.
 
-1.  Import the `Post` component into `App.js`, and render the a `Post` element instead of the create-react-app boilerplate.
+1.  Import the `Book` component in the `App/index.js` file, and render it in the App component's JSX.
 
-1.  Create a `post` object in the `App.js` file that has the following properties:
+1.  Hardcode the entirety of the JSX and CSS for the Book component to render a page that looks something like this: (Feel free to pick your own book)
 
-    *   `title` (example value: `"Dinosaurs are awesome"`)
-    *   `author` (example value: `"Stealthy Stegosaurus"`)
-    *   `body` (example value: `"Check out this body property!"`)
-    *   `comments` (example value: `["First!", "Great post", "Hire this author now!"]`)
+![Solution for Project](mock-up.png)
 
-1.  Pass the `post` object properties into the `Post` element as props.
-1.  In the `Post.js` file, use the props that were passed down to the component
-    to render the title, author, and body of the blog post in relevant JSX elements.
+1.  Create a `book` object in the `App` component that has the following properties:
 
-1.  Render both comments in the `Post` component's JSX tree as well. Try using the method [`Array.map()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) to convert the strings to JSX elements. Here's [an example from the React documentation](https://reactjs.org/docs/lists-and-keys.html#rendering-multiple-components).
+    *   `title`
+    *   `author`
+    *   `author_image_url`
+    *   `description`
+    *   `comments`
 
-1.  Optional: adjust the CSS of your index file body to align your text to the center of the document.
+1.  Pass the `book` object properties into the `<Book />` element as props.
+1.  In the `Book/index.js` file, use the props that were passed down to the component
+    to render the data into the JSX.
 
-## Solution
-
-Here's what the solution might look like:
-
-![Solution for Project](images/props_solution.png)
+1.  Create another `<Book />` element in the App's render() method, with information about another book passed as props.
