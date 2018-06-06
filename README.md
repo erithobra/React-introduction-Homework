@@ -2,11 +2,7 @@
 
 Let's put in some practice creating a React component from scratch. How about a blog post?
 
-1.  Create a new react project using the `create-react-app` command line program.
-
-```
-create-react-app blog-post
-```
+1.  Create a new react project in this repository.
 
 1.  In the `src` folder, create a new `Post.js` file that exports a React component that renders some dummy text.
 
