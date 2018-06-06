@@ -18,7 +18,6 @@ Let's put in some practice creating a React component from scratch.
     *   `author`
     *   `author_image_url`
     *   `description`
-    *   `comments`
 
 1.  Pass the `book` object properties into the `<Book />` element as props.
 1.  In the `Book/index.js` file, use the props that were passed down to the component
