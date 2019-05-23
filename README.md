@@ -2,11 +2,6 @@
 
 # React Book Listing App
 
-1. Fork
-1. Feature
-1. Clone
-1. Pull Request
-
 Let's put in some practice creating a React component from scratch.
 
 1.  Create a new react project in this repository.
