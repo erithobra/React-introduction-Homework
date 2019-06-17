@@ -4,11 +4,11 @@
 
 Let's put in some practice creating a React component from scratch.
 
-1.  Create a new react project in this repository.
+1.  Create a new React project in this repository using the command `create-react-app`.
 
 2.  Create a `src/components/Book.js` file that exports a basic React component.
 
-3.  Import the `Book` component in the `App/index.js` file, and render it in the App component's JSX.
+3.  Import the `Book` component in the `App.js` file, and render it in the App component's JSX.
 
 4.  Hardcode the entirety of the JSX and CSS for the Book component to render a page that looks something like this: (Feel free to pick your own book)
 
