@@ -26,6 +26,6 @@ Let's put in some practice creating a React component from scratch.
 
 8. Style your book app, don't forget to use `className` instead of `class`. Your CSS styles goes into App.css. 
 
-![Solution for Project](mock-up.png)
+Final Product: 
 
-![Solution for Project](mock-up.png)
+!()[https://i.imgur.com/3Y3DCrU.png]
