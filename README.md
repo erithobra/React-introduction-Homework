@@ -28,4 +28,4 @@ Let's put in some practice creating a React component from scratch.
 
 Final Product: 
 
-!()[https://i.imgur.com/3Y3DCrU.png]
+![](https://i.imgur.com/3Y3DCrU.png)
