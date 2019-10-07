@@ -6,7 +6,7 @@
 
 Let's put in some practice creating a React component from scratch.
 
-1.  Create a new React project in this repository using the command `create-react-app .` This command will create react app in the root of the current folder.
+1.  Create a new React project in this repository using the command `npx create-react-app book` This command will create react app in the root of the current folder.
 
 2.  Create a `src/components/Book.js` file that exports a basic React component.
 
