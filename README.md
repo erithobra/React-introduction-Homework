@@ -2,6 +2,8 @@
 
 # React Book Listing App
 
+![](https://kidthings.com/wp-content/uploads/2016/06/Dino-reading-a-book.jpg)
+
 Let's put in some practice creating a React component from scratch.
 
 1.  Create a new React project in this repository using the command `create-react-app .` This command will create react app in the root of the current folder.
