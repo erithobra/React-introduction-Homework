@@ -10,8 +10,6 @@ Let's put in some practice creating a React component from scratch.
 
 3.  Import the `Book` component in the `App.js` file, and render it in the App component's JSX.
 
-![Solution for Project](mock-up.png)
-
 4.  Create a `book` object in the `App` component that has the following properties:
 
     *   `title`
@@ -27,3 +25,7 @@ Let's put in some practice creating a React component from scratch.
 7.  Create another `book` object and pass its informations as props to the `<Book />` component in the App's render() method.
 
 8. Style your book app, don't forget to use `className` instead of `class`. Your CSS styles goes into App.css. 
+
+![Solution for Project](mock-up.png)
+
+![Solution for Project](mock-up.png)
