@@ -10,20 +10,20 @@ Let's put in some practice creating a React component from scratch.
 
 3.  Import the `Book` component in the `App.js` file, and render it in the App component's JSX.
 
-4.  Hardcode the entirety of the JSX and CSS for the Book component to render a page that looks something like this: (Feel free to pick your own book)
-
 ![Solution for Project](mock-up.png)
 
-5.  Create a `book` object in the `App` component that has the following properties:
+4.  Create a `book` object in the `App` component that has the following properties:
 
     *   `title`
     *   `author`
     *   `author_image_url`
     *   `description`
 
-6.  Pass the `book` object properties into the `<Book />` element as props.
+5.  Pass the `book` object properties into the `<Book />` element as props.
 
-7.  In the `components/Book.js` file, use the props that were passed down to the component
+6.  In the `components/Book.js` file, use the props that were passed down to the component
     to render the data into the JSX.
 
-8.  Create another `<Book />` element in the App's render() method, with information about another book passed as props.
+7.  Create another `book` object and pass its informations as props to the `<Book />` component in the App's render() method.
+
+8. Style your book app, don't forget to use `className` instead of `class`. Your CSS styles goes into App.css. 
