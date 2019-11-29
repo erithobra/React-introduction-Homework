@@ -2,7 +2,7 @@
 
 # React Book Listing App
 
-![](https://kidthings.com/wp-content/uploads/2016/06/Dino-reading-a-book.jpg)
+![](http://sr.photos3.fotosearch.com/bthumb/TBZ/TBZ240/cheetah019.jpg)
 
 Let's put in some practice creating a React component from scratch.
 
@@ -26,8 +26,8 @@ Let's put in some practice creating a React component from scratch.
 
 7.  Create another `book` object and pass its informations as props to the `<Book />` component in the App's render() method.
 
-8. Style your book app, don't forget to use `className` instead of `class`. Your CSS styles goes into App.css. 
+8. Style your book app, don't forget to use `className` instead of `class`. Your CSS styles goes into App.css.
 
-Final Product: 
+Final Product:
 
 ![](https://i.imgur.com/3Y3DCrU.png)
