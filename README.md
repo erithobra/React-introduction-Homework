@@ -2,7 +2,7 @@
 
 # React Book Listing App
 
-![](http://sr.photos3.fotosearch.com/bthumb/TBZ/TBZ240/cheetah019.jpg)
+![](https://www.thebookfarminc.com/images/P/9781626171688_LG.jpg)
 
 Let's put in some practice creating a React component from scratch.
 
