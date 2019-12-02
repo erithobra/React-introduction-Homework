@@ -8,7 +8,7 @@ Let's put in some practice creating a React component from scratch.
 
 1.  Create a new React project in this repository using the command `create-react-app book` This command will create a react app in the root of the current folder.
 
-2.  Create a `src/components/Book.jsx` file that exports a basic React component.
+2.  Create a `src/components/Book.js` file that exports a basic React component.
 
 3.  Import the `Book` component in the `App.js` file, and render it in the App component's JSX.
 
@@ -21,7 +21,7 @@ Let's put in some practice creating a React component from scratch.
 
 5.  Pass the `book` object properties into the `<Book />` element as props.
 
-6.  In the `components/Book.jsx` file, use the props that were passed down to the component
+6.  In the `components/Book.js` file, use the props that were passed down to the component
     to render the data into the JSX.
 
 7.  Create another `book` object and pass its informations as props to the `<Book />` component in the App's render() method.
