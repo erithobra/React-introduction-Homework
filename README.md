@@ -6,28 +6,24 @@
 
 Let's put in some practice creating a React component from scratch.
 
-1.  Create a new React project in this repository using the command `create-react-app book` This command will create a react app in the root of the current folder.
+1.  Make a copy of your react-boilerplate folder and call it profile-page: `cp -r react-boilerplate profile-page`
 
-2.  Create a `src/components/Book.js` file that exports a basic React component.
+2.  Create a `src/components/Profile.js` file that exports a basic React component.
 
-3.  Import the `Book` component in the `App.js` file, and render it in the App component's JSX.
+3.  Import the `Profile` component in the `App.js` file, and render it in the App component's JSX.
 
-4.  Create a `book` object in the `App` component that has the following properties:
+4.  Create a `profile` object in the `App` component that has the following properties:
 
-    *   `title`
-    *   `author`
-    *   `author_image_url`
-    *   `description`
+    *   `name`
+    *   `username`
+    *   `user_image_url`
+    *   `profile` (whatever information you want displayed on your profile page)
 
-5.  Pass the `book` object properties into the `<Book />` element as props.
+5.  Pass the `profile` object properties into the `<Profile />` element as props.
 
-6.  In the `components/Book.js` file, use the props that were passed down to the component
+6.  In the `components/Profile.js` file, use the props that were passed down to the component
     to render the data into the JSX.
 
-7.  Create another `book` object and pass its informations as props to the `<Book />` component in the App's render() method.
+7.  Create another `profile` object and pass its informations as props to the `<Profile />` component in the App's render() method.
 
-8. Style your book app, don't forget to use `className` instead of `class`. Your CSS styles goes into App.css.
-
-Final Product:
-
-![](https://i.imgur.com/3Y3DCrU.png)
+8. Style your profile app, don't forget to use `className` instead of `class`. Your CSS styles goes into App.css. You can make your profile look however you want!
