@@ -12,7 +12,7 @@ Let's put in some practice creating a React component from scratch.
 
 3.  Import the `Profile` component in the `App.js` file, and render it in the App component's JSX.
 
-4.  Create a `profile` object in the `App` component that has the following properties:
+4.  Add a `profile` object to the `App` component's state that has the following properties:
 
     *   `name`
     *   `username`
