@@ -6,7 +6,7 @@
 
 Let's put in some practice creating a React component from scratch.
 
-1.  Make a copy of your react-boilerplate folder and call it profile-page: `cp -r react-boilerplate profile-page`
+1.  FORK this repository and clone it down. CD into the directory and run: `npx create-react-app profile-page`
 
 2.  Create a `src/components/Profile.js` file that exports a basic React component.
 
