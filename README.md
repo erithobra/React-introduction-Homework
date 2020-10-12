@@ -22,7 +22,7 @@ Let's put in some practice creating a React component from scratch.
 5.  Pass the `profile` object properties into the `<Profile />` element as props.
 
 6.  In the `components/Profile.js` file, use the props that were passed down to the component
-    to render the data into the JSX.
+    to render the data in the JSX.
 
 7.  Create another `profile` object and pass its informations as props to the `<Profile />` component in the App's render() method.
 
