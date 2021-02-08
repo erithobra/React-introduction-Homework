@@ -8,7 +8,7 @@ Let's put in some practice creating a React component from scratch.
 
 1.  FORK this repository and clone it down. CD into the directory and run: `npx create-react-app profile-page`
 
-2.  Create a `src/components/Profile.js` file that exports a basic React component.
+2.  Create a `src/Profile.js` file that exports a basic React component.
 
 3.  Import the `Profile` component in the `App.js` file, and render it in the App component's JSX.
 
